@@ -1,11 +1,12 @@
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import Services from "./components/Services";
-import Blogs from "./components/Blogs";
+// import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react"
 import Spices from "./components/Spices";
 import AboutUs from "./components/AboutUs";
+import Form from "./components/Form"
 
 const App = () => {
   return (
@@ -16,10 +17,12 @@ const App = () => {
       <Spices />
       <Services />
 
+      <Form />
+
       {/* <Blogs /> */}
 
       <Footer />
-      <Analytics/>
+      <Analytics />
     </main>
   );
 };

@@ -28,7 +28,7 @@ const Footer = () => {
   return (
     <footer className="mt-20 p-10 py-10 bg-white border border-black via-30% to-emerald-900 to-90% ..." id="contactus">
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        {/* <div>
+        <div>
           <ul className="space-y-2">
             <span>
               <img src={logo} width={50} height={50} />
@@ -75,7 +75,7 @@ const Footer = () => {
 
         <div>
           <h3 className="text-md font-semibold mb-4">Products & Services</h3>
-          {/* <ul className="space-y-2">
+          <ul className="space-y-2">
             {productServices.map((link, index) => (
               <li key={index}>
                 <a
@@ -86,8 +86,8 @@ const Footer = () => {
                 </a>
               </li>
             ))}
-          </ul> */}
-        {/* </div>
+          </ul> 
+         </div>
 
         <div>
           <h3 className="text-md font-semibold mb-4">Support</h3>
@@ -103,7 +103,7 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-        </div> */} 
+        </div> 
       </div>
     </footer>
   );

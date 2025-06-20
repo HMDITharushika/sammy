@@ -3,14 +3,14 @@ import image from "../assets/about-us.png";
 const AboutUs = () => {
   return (
     
-      <section className="flex flex-col lg:flex-row items-center justify-center px-8 py-16 gap-10">
+      <section className="flex flex-col lg:flex-row items-center justify-center px-8 gap-10">
       
       {/* Left Side - Image */}
       <div className="w-full lg:w-1/2">
         <img
           src={image}
           alt="Descriptive Alt Text"
-          className="rounded-lg shadow-lg w-full h-auto object-cover"
+          className="rounded-lg w-full h-auto object-cover"
         />
       </div>
 
