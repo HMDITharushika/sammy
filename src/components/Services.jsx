@@ -27,7 +27,7 @@ const Services = () => {
   ];
   return (
     <div>
-      <section className="container mx-auto p-9 py-16" id="services">
+      <section className="container mx-auto p-9" id="services">
         <h2 className="mb-8 text-center text-3xl tracking-tighter lg:text-4xl font-bold ">
           Sourcing the Finest Spices for Your Health
         </h2>

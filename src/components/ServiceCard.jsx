@@ -12,14 +12,7 @@ const ServiceCard = ({ project, className }) => {
         </h3>
         <p className="text-sm text-justify pt-4">{project.description}</p>
       </div>
-      <div className="flex justify-center py-4">
-        <a
-          href="#"
-          className="border border-blackpy-3 px-4 mx-3 rounded-md"
-        >
-          See More
-        </a>
-      </div>
+
     </div>
   );
 };
