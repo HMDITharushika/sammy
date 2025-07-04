@@ -8,7 +8,6 @@ import Spices from "./components/Spices";
 import AboutUs from "./components/AboutUs";
 import Form from "./components/Form"
 import TestimonialCarousel from "./components/TestimonialCarousel";
-import ContactForm from "./components/ContactForm";
 
 const App = () => {
   return (
@@ -21,8 +20,7 @@ const App = () => {
       <TestimonialCarousel />
       <Form />
       {/* <Blogs /> */}
-      <ContactForm />
-
+     
       <Footer />
       <Analytics />
     </main>
